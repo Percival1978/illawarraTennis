@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import Wrapper from './components/wrapper';
+import Header from './components/header';
+import Logo from './components/logo';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Illawarra Tennis Centre Rockdale</h1>
-        </header>
+        <Wrapper>
+          <Header>
+            <Logo />
+          </Header>
+        </Wrapper>
       </div>
     );
   }
