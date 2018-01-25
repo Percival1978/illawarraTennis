@@ -4,6 +4,7 @@ import './App.css';
 import Wrapper from './components/wrapper';
 import Header from './components/header';
 import Logo from './components/logo';
+import Main from './components/main';
 
 class App extends Component {
   render() {
@@ -13,6 +14,8 @@ class App extends Component {
           <Header>
             <Logo />
           </Header>
+          <Main />
+          <Main />
         </Wrapper>
       </div>
     );
