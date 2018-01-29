@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import img from '../dark-bg.jpg';
+import img from '../images/dark-bg.jpg';
 
 const Wrapper = styled.div`
   display: flex;

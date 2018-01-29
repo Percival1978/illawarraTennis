@@ -5,6 +5,7 @@ import Wrapper from './components/wrapper';
 import Header from './components/header';
 import Logo from './components/logo';
 import Main from './components/main';
+import Map from './components/map';
 
 class App extends Component {
   render() {
@@ -15,7 +16,9 @@ class App extends Component {
             <Logo />
           </Header>
           <Main />
-          <Main />
+          <Main>
+            <Map />
+          </Main>
         </Wrapper>
       </div>
     );

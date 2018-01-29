@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import img from '../logo.png';
+import img from '../images/logo.png';
 
 const Logo = styled.div`
   width: 500px;
