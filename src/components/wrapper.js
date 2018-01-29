@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import img from '../images/dark-bg.jpg';
 
 const Wrapper = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   background-image: url(${img});

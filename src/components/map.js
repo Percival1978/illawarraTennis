@@ -1,23 +1,15 @@
-import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
+import React from 'react';
 import styled from 'styled-components';
 
-export default class Map extends Component {
-  static defaultProps = {
-    center: { lat: -33.9568118, lng: 151.1416668 },
-    zoom: 11,
+const Map = styled.iframe`
+  height: 90vh;
+  width: 99.4%;
+  overflow-x: hidden;
+  border: none;
+  position: absolute;
+  @media only screen and (max-device-width: 1024px) {
+    width: 100%;
   }
-render() {
-    return (
-      <div className='google-map'>
-        <GoogleMapReact
-          style={{width: '100vw', height: '90vh', position: 'relative', overflowX: 'hidden'}}
-          defaultCenter={ this.props.center }
-          defaultZoom={ this.props.zoom }>
-        </GoogleMapReact>
-      </div>
-    )
-  }
-}
+`;
 
-
+export default Map;

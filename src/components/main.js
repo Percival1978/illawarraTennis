@@ -6,6 +6,7 @@ const Main = styled.div`
   width: 100%;
   background-color: white;
   margin-bottom: 50vh;
+  position: relative;
 `;
 
 export default Main;
