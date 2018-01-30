@@ -6,6 +6,7 @@ import img from '../images/dark-bg.jpg';
 const Wrapper = styled.div`
   position: relative;
   display: flex;
+  box-sizing: border-box;
   flex-direction: column;
   background-image: url(${img});
   background-size: cover;
@@ -15,6 +16,8 @@ const Wrapper = styled.div`
   width: 100vw;
   padding: 0;
   margin: 0;
+  overflow: hidden;
+  font-size: 18px;
 `;
 
 export default Wrapper;

@@ -5,6 +5,7 @@ const Header = styled.header`
   display: flex;
   height: 100vh;
   width: 100%;
+  padding: 2em;
 `;
 
 export default Header;

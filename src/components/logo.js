@@ -9,9 +9,6 @@ const Logo = styled.div`
   background-image: url(${img});
   background-size: contain;
   background-repeat: no-repeat;
-  position: absolute;
-  top: 10vh;
-  left: 10vw;
 `;
 
 export default Logo;
