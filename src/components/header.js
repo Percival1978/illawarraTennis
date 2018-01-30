@@ -7,7 +7,7 @@ const Header = styled.header`
   width: 100%;
   padding: 5em 3em;
   @media only screen and (max-width: 1023px) {
-    padding: 2em;
+    padding: 5em 2em;
   }
 `;
 

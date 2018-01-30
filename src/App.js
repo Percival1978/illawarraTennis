@@ -33,13 +33,17 @@ class App extends Component {
               <p>Courts cost $20 / hour before 5 pm and $23 / hour after 5pm.</p>
               <p>For bookings contact the pro-shop on (02) 9567 2307.</p>
             </Content>
-            <Forms>
-              <a target="_blank" href="forms/adultgroup.pdf">Adult Group <FaCloudDownload /></a>
-              <a target="_blank" href="forms/fridayjunior.pdf">Friday Junior <FaCloudDownload /></a>
-              <a target="_blank" href="forms/mondaymens.pdf">Monday Mens <FaCloudDownload /></a>
-              <a target="_blank" href="forms/tenniscamp.pdf">Tennis Camp <FaCloudDownload /></a>
-              <a target="_blank" href="forms/statement.pdf">Statement <FaCloudDownload /></a>
-            </Forms> 
+            <Content>
+              <p>FORMS</p>
+              <Forms>
+                <a target="_blank" href="forms/adultgroup.pdf">Adult Group <FaCloudDownload /></a>
+                <a target="_blank" href="forms/fridayjunior.pdf">Friday Junior <FaCloudDownload /></a>
+                <a target="_blank" href="forms/mondaymens.pdf">Monday Mens <FaCloudDownload /></a>
+                <a target="_blank" href="forms/tenniscamp.pdf">Tennis Camp <FaCloudDownload /></a>
+                <a target="_blank" href="forms/statement.pdf">Statement <FaCloudDownload /></a>
+              </Forms> 
+            </Content>
+            
           </Main>
           <Footer>
             <FooterBox>

@@ -6,13 +6,12 @@ const Forms = styled.div`
   flex: 1;
   flex-wrap: wrap;
   height: 300px;
-  padding: 2em;
   flex-direction: column;
   color: #828282;
   & a {
     padding-left: 1em;
     line-height: 2em;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
     display: block;
     flex: 1;
     border: 1px solid #5b5b5b;

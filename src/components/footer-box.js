@@ -5,7 +5,7 @@ const FooterBox = styled.div`
   position: relative;
   flex: 1;
   padding: 3em;
-  color: #b6b6b6;
+  color: #b1b1b1;
   & p {
     margin: 0;
   }

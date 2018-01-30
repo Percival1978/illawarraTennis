@@ -4,7 +4,8 @@ import styled from 'styled-components';
 const Content = styled.div`
   flex: 1;
   padding: 2em;
-  color: #828282;
+  color: #b1b1b1;
+  line-height: 2em;
 `;
 
 export default Content;
