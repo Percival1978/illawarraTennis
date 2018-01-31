@@ -11,6 +11,13 @@ import Footer from './components/footer';
 import FooterBox from './components/footer-box';
 import Forms from './components/forms';
 
+import adultgroup from './forms/adultgroup.pdf';
+import fridayjunior from './forms/fridayjunior.pdf';
+import mondaymens from './forms/mondaymens.pdf';
+import tenniscamp from './forms/tenniscamp.pdf';
+import statement from './forms/statement.pdf';
+
+
 var FaEnvelope = require('react-icons/lib/fa/envelope');
 var FaMobile = require('react-icons/lib/fa/mobile');
 var FaPhone = require('react-icons/lib/fa/phone');
@@ -46,11 +53,11 @@ class App extends Component {
             <Content>
               <h2>FORMS</h2>
               <Forms>
-                <a target="_blank" href="forms/adultgroup.pdf"><MdGroup /> Adult Group <FaCloudDownload /></a>
-                <a target="_blank" href="forms/fridayjunior.pdf"><FaChild /> Friday Junior <FaCloudDownload /></a>
-                <a target="_blank" href="forms/mondaymens.pdf"><FaMale /> Monday Mens <FaCloudDownload /></a>
-                <a target="_blank" href="forms/tenniscamp.pdf"><FaChild /> Tennis Camp <FaCloudDownload /></a>
-                <a target="_blank" href="forms/statement.pdf"><MdAccountBalance /> Statement <FaCloudDownload /></a>
+                <a target="_blank" href={adultgroup}><MdGroup /> Adult Group <FaCloudDownload /></a>
+                <a target="_blank" href={fridayjunior}><FaChild /> Friday Junior <FaCloudDownload /></a>
+                <a target="_blank" href={mondaymens}><FaMale /> Monday Mens <FaCloudDownload /></a>
+                <a target="_blank" href={tenniscamp}><FaChild /> Tennis Camp <FaCloudDownload /></a>
+                <a target="_blank" href={statement}><MdAccountBalance /> Statement <FaCloudDownload /></a>
               </Forms> 
             </Content>
           </Main>
