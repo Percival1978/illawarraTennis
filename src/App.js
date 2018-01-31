@@ -28,7 +28,7 @@ class App extends Component {
         <Wrapper>
           <Header>
             <Logo />
-            <p><MdDirectionsTransit /> We are conveniently located a quick walk from Rockdale train station...</p>
+            <p>We are conveniently located a quick walk from Rockdale <MdDirectionsTransit /></p>
           </Header>
           <Main>
             <Map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.379623083923!2d151.14117799999997!3d-33.95708087637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b75591ba9eff%3A0xbade40ecd8074655!2s71+Chapel+St!5e0!3m2!1sen!2sau!4v1396260923372"></Map>

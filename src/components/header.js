@@ -12,6 +12,7 @@ const Header = styled.header`
   & p {
     position: absolute;
     top: 90vh;
+    max-width: 80vw;
   }
   & svg {
     font-size: larger;
