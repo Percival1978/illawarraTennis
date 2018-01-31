@@ -13,10 +13,8 @@ const Wrapper = styled.div`
   background-repeat: no-repeat;
   background-position: bottom right;
   background-attachment: fixed;
-  width: 100vw;
   padding: 0;
   margin: 0;
-  overflow: hidden;
   font-size: 18px;
 `;
 
