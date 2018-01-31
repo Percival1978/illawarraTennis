@@ -16,6 +16,9 @@ const Wrapper = styled.div`
   padding: 0;
   margin: 0;
   font-size: 18px;
+  @media only screen and (max-width: 1024px) {
+    background-image: none;
+  }
 `;
 
 export default Wrapper;

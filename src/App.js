@@ -10,6 +10,7 @@ import Content from './components/content';
 import Footer from './components/footer';
 import FooterBox from './components/footer-box';
 import Forms from './components/forms';
+import MobileBackground from './components/mobile-background';
 
 import adultgroup from './forms/adultgroup.pdf';
 import fridayjunior from './forms/fridayjunior.pdf';
@@ -33,6 +34,7 @@ class App extends Component {
     return (
       <div className="App">
         <Wrapper>
+          <MobileBackground />
           <Header>
             <Logo />
             <p>We are conveniently located a quick walk from Rockdale <MdDirectionsTransit /></p>
