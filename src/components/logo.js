@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import img from '../images/logo.png';
 
 const Logo = styled.div`
-  width: 500px;
+  width: 350px;
   max-width: 80vw;
   height: 160px;
   background-image: url(${img});
