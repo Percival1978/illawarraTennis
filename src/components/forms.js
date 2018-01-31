@@ -17,7 +17,6 @@ const Forms = styled.div`
     border-radius: 0 10px 0 0;
     text-decoration: none;
     color: #828282;
-    transition: all 0.3s ease;
     @media only screen and (max-width: 700px) {
       max-width: 90%;
     }
