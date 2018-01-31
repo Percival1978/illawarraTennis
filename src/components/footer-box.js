@@ -9,6 +9,9 @@ const FooterBox = styled.div`
   & p {
     margin: 0;
   }
+  & h2 {
+    margin: 0;
+  }
   & ul {
     color: #5b5b5b;
     list-style: none;

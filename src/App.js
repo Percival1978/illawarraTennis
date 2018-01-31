@@ -35,12 +35,16 @@ class App extends Component {
           </Main>
           <Main>
             <Content>
-              <p>We have 18 synthetic grass courts available for hire 7 days / week from 8am - 10:30pm.</p>
-              <p>Courts cost $20 / hour before 5 pm and $23 / hour after 5pm.</p>
+            <h2>COURT HIRE</h2>
+            <p>We have 18 synthetic grass courts available for hire 7 days / week from 8am - 10:30pm.</p>
+                <ul>
+                  <li>$20 / hour 8am - 5pm</li>
+                  <li>$23 / hour 5pm - 10:30pm</li>
+                </ul>
               <p>For bookings contact the pro-shop on (02) 9567 2307.</p>
             </Content>
             <Content>
-              <p>FORMS</p>
+              <h2>FORMS</h2>
               <Forms>
                 <a target="_blank" href="forms/adultgroup.pdf"><MdGroup /> Adult Group <FaCloudDownload /></a>
                 <a target="_blank" href="forms/fridayjunior.pdf"><FaChild /> Friday Junior <FaCloudDownload /></a>
@@ -52,9 +56,7 @@ class App extends Component {
           </Main>
           <Footer>
             <FooterBox>
-              <p>
-                CONTACT DETAILS:
-              </p>
+              <h2>CONTACT DETAILS</h2>
               <ul>
                 <li><a href="tel:0295672307"><FaPhone /> Pro-Shop : 02 9567 2307 </a></li>
                 <li><a href="tel:0412043129"><FaMobile /> Manager : 0412 043 129 </a></li>
