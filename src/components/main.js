@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Main = styled.div`
   min-height: 90vh;
-  width: 100%;
+  max-width: 100%;
   background-color: transparent;
   margin-bottom: 50vh;
   position: relative;
