@@ -13,6 +13,10 @@ const Header = styled.header`
     position: absolute;
     top: 90vh;
   }
+  & svg {
+    font-size: larger;
+    vertical-align: text-bottom!important;
+  }
 `;
 
 export default Header;
