@@ -19,8 +19,7 @@ var MdDirectionsTransit = require('react-icons/lib/md/directions-transit');
 var MdGroup = require('react-icons/lib/md/group');
 var MdAccountBalance = require('react-icons/lib/md/account-balance');
 var FaChild = require('react-icons/lib/fa/child');
-var FaEnvelope = require('react-icons/lib/fa/envelope');
-var FaEnvelope = require('react-icons/lib/fa/envelope');
+var FaMale = require('react-icons/lib/fa/male');
 
 class App extends Component {
   render() {
@@ -45,7 +44,7 @@ class App extends Component {
               <Forms>
                 <a target="_blank" href="forms/adultgroup.pdf"><MdGroup /> Adult Group <FaCloudDownload /></a>
                 <a target="_blank" href="forms/fridayjunior.pdf"><FaChild /> Friday Junior <FaCloudDownload /></a>
-                <a target="_blank" href="forms/mondaymens.pdf"><MdGroup /> Monday Mens <FaCloudDownload /></a>
+                <a target="_blank" href="forms/mondaymens.pdf"><FaMale /> Monday Mens <FaCloudDownload /></a>
                 <a target="_blank" href="forms/tenniscamp.pdf"><FaChild /> Tennis Camp <FaCloudDownload /></a>
                 <a target="_blank" href="forms/statement.pdf"><MdAccountBalance /> Statement <FaCloudDownload /></a>
               </Forms> 

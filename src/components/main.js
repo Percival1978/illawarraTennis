@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Main = styled.div`
-  min-height: 90vh;
+  min-height: 60vh;
   max-width: 100%;
   background-color: transparent;
   margin-bottom: 50vh;
