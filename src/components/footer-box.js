@@ -20,10 +20,15 @@ const FooterBox = styled.div`
     text-decoration: none;
     color: #5b5b5b;
     font-size: initial;
+    transition: all 0.3s ease;
+    &:hover {
+      color: #b1b1b1;
+    }
   }
   & svg {
     font-size: 1.5em;
     padding-right: 1em;
+    vertical-align: text-bottom!important;
   }
   @media only screen and (max-width: 1023px) {
     padding: 2em;

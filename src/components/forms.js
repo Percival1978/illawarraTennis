@@ -7,16 +7,26 @@ const Forms = styled.div`
   flex-wrap: wrap;
   height: 300px;
   flex-direction: column;
-  color: #828282;
+  color: #b1b1b1;
   & a {
+    width: 50%;
     padding-left: 1em;
     line-height: 2em;
     margin: 10px 10px 10px 0;
     display: block;
     flex: 1;
-    border: 1px solid #5b5b5b;
+    border: 2px solid #5b5b5b;
+    border-radius: 0 10px 0 0;
     text-decoration: none;
     color: #828282;
+    transition: all 0.3s ease;
+    @media only screen and (max-width: 700px) {
+      width: 90%;
+    }
+    &:hover {
+      background-color: #b1b1b1;
+      color: #000;
+    }
   }
   & svg {
     float: right;
