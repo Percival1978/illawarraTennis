@@ -44,8 +44,8 @@ class App extends Component {
           </Main>
           <Main>
             <Content>
-            <h2>COURT HIRE</h2>
-            <p>We have 18 synthetic grass courts available for hire 7 days / week from 8am - 10:30pm.</p>
+              <h2>COURT HIRE</h2>
+              <p>We have 18 synthetic grass courts available for hire 7 days / week from 8am - 10:30pm.</p>
                 <ul>
                   <li>$20 / hour 8am - 5pm</li>
                   <li>$23 / hour 5pm - 10:30pm</li>
